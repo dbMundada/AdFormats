@@ -1,0 +1,53 @@
+<html>
+  <head>
+<title>Box-Ads Format</title>
+<style>
+  .spinner div {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,0.8);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: hidden;
+  }
+</style>
+<script type="text/javascript" src="box-ad.js"></script>
+<script type='text/javascript'>
+  var BoxAdObj = new BoxAds(150);
+  BoxAdObj.createBoxCss(document);
+</script>
+</head>
+<body>
+
+    <div id="stage" style="width: 150px; height: 150px;">
+        <div class="spinner">
+            <div class="front">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvK8kHNZDQ6bvCsjnNummEz_vhIXmzSgVld0CE52Bet9I1EviG" />
+            </div>
+
+        		<div class="back">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl1EiSURBkhlIzFzZRvq3R0vkdCiiiEQIkoj0h2qHPviLEMDdy" />
+            </div>
+
+        		<div class="top">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWlqeX0g0AGPRCyhxjLh5PCz63xCULVxOoxBi2bIY423yU3bfT" />
+            </div>
+
+        		<div class="bottom">
+              <p>Now is the Right Time For Real Estate Investment</p>
+            </div>
+
+        		<div class="left">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0W3fztFJgLpQsigMGUr-6rFKuHd8ZpghChZCOSUN4suVPvKVqIQ" />
+            </div>
+
+        		<div class="right">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdbCN_k4yNuw8qqXTJBMW7xXLRoNX7fzC-c_es7-e643hcpChR" />
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
